@@ -4,7 +4,8 @@
   "description": "techNotes MERN Project",
   "main": "server.js",
   "scripts": {
-    "start": "node server",
+    "start": "react-scripts start",
+    "client": "cd frontend && npm start",
     "dev": "nodemon server"
   },
   "keywords": [],
@@ -25,9 +26,22 @@
     "mongoose": "^8.16.1",
     "mongoose-sequence": "^6.0.1",
     "react-router-dom": "^7.6.3",
+    "react-scripts": "^5.0.1",
     "uuid": "^11.1.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.19"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
