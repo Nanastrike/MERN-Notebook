@@ -11,8 +11,8 @@
 9. [ ] Provide a way to remove employee access asap if needed 
 10. [x] Notes are assigned to specific employees 
 11. [x] Notes have a ticket #, title, note body, created & updated dates
-12. [ ] Notes are either OPEN or COMPLETED 
-13. [ ] Users can be Employees, Managers, or Admins 
+12. [x] Notes are either OPEN or COMPLETED 
+13. [x] Users can be Employees, Managers, or Admins 
 14. [ ] Notes can only be deleted by Managers or Admins 
 15. [ ] Anyone can create a note (when customer checks-in)
 16. [ ] Employees can only view and edit their assigned notes  
